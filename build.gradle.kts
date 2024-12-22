@@ -31,7 +31,7 @@ dependencies {
 }
 
 tasks.apply {
-    create("formatAndLintKotlin") {
+    register("formatAndLintKotlin") {
         group = "formatting"
         description = "Fix Kotlin code style deviations with kotlinter"
         dependsOn(formatKotlin)
