@@ -21,12 +21,12 @@ module.exports = {
       value: 'chore',
       name: 'chore:    Changes to the build process or auxiliary tools\n            and libraries such as documentation generation',
     },
-    {value: 'WIP', name: 'WIP:      Work in progress'},
+    {value: 'wip', name: 'wip:      Work in progress'},
     {value: 'revert', name: 'revert:   Revert to a prior commit'},
     {value: 'update', name: 'update:     Update dependencies'},
   ],
 
-  scopes: [{name: 'malefictheme'}, {name: 'themeconfig'}, {name: 'util'}],
+  scopes: [{name: 'logger'}, {name: 'resources'}, {name: 'test'}],
 
   usePreparedCommit: false, // to re-use commit from ./.git/COMMIT_EDITMSG
   allowTicketNumber: false,
