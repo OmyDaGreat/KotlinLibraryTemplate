@@ -10,9 +10,9 @@ Includes Kotlinter set up with a basic `.editorconfig` for Jetpack Compose
 
 Logging from `co.touchlab:kermit` for ease of use
 
-## Customizable Commitizen
+## Kommit
 
-Built-in support for a branch of commitizen, [cz-cust](https://github.com/leoforfree/cz-customizable), allowing for formatted commits
+Built-in support for [Kommit](https://github.com/OmyDaGreat/Kommit), a git commit message generator
 
 ## Version Catalog
 

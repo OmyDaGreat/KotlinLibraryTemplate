@@ -1,0 +1,22 @@
+# Comments start with #
+
+# Commit Types
+types:
+  - feat: A new feature
+  - fix: A bug fix
+  - docs: Documentation only changes
+
+# Available Scopes
+scopes:
+  - core
+  - ui
+  - api
+
+# Configuration Options
+options:
+  allowCustomScopes: true
+  footerPrefix: ISSUES CLOSED:
+  allowBreakingChanges:
+    - feat
+    - fix
+    - refactor
