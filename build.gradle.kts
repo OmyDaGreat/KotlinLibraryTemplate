@@ -1,11 +1,11 @@
 import cn.lalaki.pub.BaseCentralPortalPlusExtension.PublishingType
 
-val user = "OmyDaGreat"
-val repo = "KotlinLibraryTemplate"
-val g = "xyz.malefic"
-val artifact = "kotlinlibrarytemplate"
-val v = "1.0.0"
-val desc = "A Kotlin library template with everything you need to get started"
+val user: String by project
+val repo: String by project
+val g: String by project
+val artifact: String by project
+val v: String by project
+val desc: String by project
 
 val localMavenRepo = uri(layout.buildDirectory.dir("repo").get())
 

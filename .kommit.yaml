@@ -5,17 +5,18 @@ types:
   - feat: A new feature
   - fix: A bug fix
   - docs: Documentation only changes
+  - refactor: A code change that neither fixes a bug nor adds a feature
 
 # Available Scopes
 scopes:
-  - core
-  - ui
-  - api
+  all:
+    - core
+    - ui
+    - api
+    - github
 
 # Configuration Options
 options:
-  allowCustomScopes: true
-  footerPrefix: ISSUES CLOSED:
   allowBreakingChanges:
     - feat
     - fix
